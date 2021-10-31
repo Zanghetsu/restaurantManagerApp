@@ -1,8 +1,6 @@
 package com.restaurantmanager.usermanager.appuser;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDate;
 import java.util.List;
 
