@@ -19,7 +19,7 @@ public class AppUser {
     @Id
     @SequenceGenerator(name = "app_user_sequence", sequenceName = "app_user_sequence", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "app_user_sequence")
-    private int id;
+    private Integer id;
 
     private String firstName;
     private String lastName;
